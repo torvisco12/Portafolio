@@ -62,7 +62,7 @@ html {
 
 /* MENU */
 .contenedor-header {
-  background: #32F800;
+  background: #B2FF9E;
   position: fixed;
   width: 100%;
   top: 0;
@@ -85,7 +85,7 @@ html {
   color: #1CB698;
   text-decoration: none;
   display: inline-block;
-  background-image: url("img/Logo.png");
+  background-image: url("../img/Logo.png");
   background-size: contain; /* Ajusta el tamaño de la imagen para que quepa */
   background-repeat: no-repeat; /* Evita la repetición de la imagen */
   padding-left: 20px; /* Espacio para el logo a la izquierda del texto */
@@ -122,7 +122,7 @@ html {
 
 /* SECCION I N I C I O */
 .inicio {
-  background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgb(30, 35, 38)), url(img/Logo_copy.png);
+  background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgb(30, 35, 38)), url(../img/Logo_copy.png);
   background-size: cover;
   height: 100vh;
   color: #fff;
@@ -694,7 +694,7 @@ html {
 /* SECCION CONTACTO */
 .contacto {
   background-image: url(img/contact_bg.png);
-  background-color: #1e2326;
+  background-color: #2ebe89;
   color: #fff;
   padding: 50px 0;
 }
@@ -790,7 +790,7 @@ html {
 }
 
 footer {
-  background-color: #252A2E;
+  background-color: #B2FF9E;
   color: #fff;
   padding: 50px 0 30px 0;
   text-align: center;
@@ -803,10 +803,10 @@ footer .redes {
 }
 
 footer .redes a {
-  color: #fff;
+  color: #240D27;
   display: inline-block;
   text-decoration: none;
-  border: 1px solid #fff;
+  border: 1px solid #240D27;
   border-radius: 100%;
   width: 42px;
   height: 42px;
