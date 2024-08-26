@@ -24,7 +24,7 @@ html {
   color: #fff;
   display: inline-block;
   text-decoration: none;
-  background-color: #1CB698;
+  background-color: #18091A;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -502,7 +502,7 @@ html {
 }
 /* SECCION CURRICULUM */
 .curriculum {
-  background-color: #1e2326;
+  background-color: #2ebe89;
   color: #fff;
   padding: 50px 20px;
 }
@@ -768,7 +768,7 @@ html {
 .contacto .col .info {
   position: absolute;
   top: 40%;
-  background-color: #252A2E;
+  background-color: #240D27;
   padding: 20px;
   max-swidth: 350px;
   left: 50%;
@@ -784,9 +784,18 @@ html {
 }
 
 .contacto .col .info ul li i {
-  color: #1CB698;
+  color: #1CB698; /* Color del ícono */
   display: inline-block;
   margin-right: 20px;
+}
+
+.contacto .col .info ul li a {
+  color: #fff; /* Color del texto en los enlaces */
+  text-decoration: none; /* Elimina el subrayado del texto */
+}
+
+.contacto .col .info ul li a:hover {
+  color: #fff; /* Cambia el color al pasar el ratón */
 }
 
 footer {
